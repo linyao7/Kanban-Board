@@ -1,2 +1,3 @@
-"# Kanban-Board" 
-"# kanban-board" 
+To run the project: 
+1. npm install
+2. npm start
