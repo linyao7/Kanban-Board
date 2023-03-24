@@ -76,7 +76,6 @@ const CreateCardForm = ({ updateParentColumn, onSubmit }: IProps) => {
       <LastRow>
         <CustomSelect
           label={'Assignee'}
-          size={'small'}
           placeholder={'Select a user'}
           onChange={(e: any) => handleSelectChange(e, setAssignee)}
           options={assigneeOptions}
@@ -84,7 +83,6 @@ const CreateCardForm = ({ updateParentColumn, onSubmit }: IProps) => {
         />
         <CustomSelect
           label={'Status'}
-          size={'small'}
           defaultValue={statuses[0]}
           onChange={(e: any) => handleSelectChange(e, setStatus)}
           options={statusOptions}

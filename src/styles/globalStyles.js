@@ -40,11 +40,14 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
-//antd css selectors
+    //antd css selectors
     .ant-select-selector {
         background: transparent !important;
-        border-color: var(--theme-background-primary) !important;
+        border: 2px solid var(--theme-background-primary) !important;
+        /* border-color: var(--theme-background-primary) !important; */
         color: var(--text-primary) !important;
+        align-items: center !important;
+        /* height: 40px !important; */
     } 
 
     .ant-select-arrow {
@@ -53,6 +56,11 @@ const GlobalStyle = createGlobalStyle`
 
     .ant-select-dropdown {
         background: var(--theme-board-background) !important;
+    }
+
+    .ant-select-item-option {
+        background: var(--theme-board-background)  !important;
+        color: var(--text-primary) !important;
     }
 
     //react-toastify css selectors
