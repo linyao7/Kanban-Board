@@ -12,7 +12,7 @@
 - User can archive card
 
 ## More Features
-- User IndexedDB to simulate backend
+- Use IndexedDB for data storage
 - User can add multiple boards
 - There are additional fields, but requires more logic for them to work properly
 - Push notification when a new card is created
